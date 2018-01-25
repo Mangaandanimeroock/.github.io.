@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home</title>
+
+<link rel="stylesheet" type="text/css" href="2.css">
+
+<link rel="icon" href="http://www.grandforksherald.com/sites/all/themes/grandforksherald_theme/images/touch-icon.png">
+
+<script type="text/javascript">
+<!-->
+var image1=new Image()
+image1.src="https://pahavanne.by/datas/photos/_thumbs/79/pic_79-840x510-crop.jpg"
+var image2=new Image()
+image2.src="http://www.sergiogarciastudios.com/wp-content/uploads/2015/10/p.43-1160x700.jpg"
+var image3=new Image()
+image3.src="http://1v1d1e1lmiki1lgcvx32p49h8fe.wpengine.netdna-cdn.com/wp-content/uploads/2015/11/MENS-STYLE.jpg"
+//-->
+</script>
+
+<style>
+body { 
+    background-image: url('sb.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+}
+</style>
+
+<style>
+	* {
+		margin: 0;
+		padding: 0;
+	}
+	#map {
+		height: 500px;
+		width: 70%;
+	}
+</style>
+
+</head>
+
+<body>
+	<div class="header">
+        
+        <div class="headerContent">
+            <a href="home.html">
+             <center><img src="a1.jpg" alt="Logo" title="Logo" /></center></a>
+             <div class="nav">          
+                <ul class="nav">
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="rrethn.html">Rreth Nesh</a></li>
+                    <li><a href="produkt.html">Produktet</a></li>
+                    <li><a href="kont.html">Na Kontaktoni </a></li>
+                    <li><a href="https://www.amazon.com/">Amazon</a></li>
+                    <li><a href="https://www.facebook.com/">Facebook</a></li>
+                    <li><a href="https://twitter.com/">Twitter</a></li>                    
+                    <li><a href="https://www.instagram.com/">Instagram</a></li>
+                    
+                </ul>
+            </div>
+        </div>
+        <div class="headerBreak" ></div>
+    </div>
+
+<center>
+
+<img src="boxingring.png" name="slide" width="700" height="450">
+<script type="text/javascript">
+<!--
+var step=1
+function slideit(){
+document.images.slide.src=eval("image"+step+".src")
+if(step<3)
+step++
+else
+step=1
+setTimeout("slideit()",2500)
+}
+slideit()
+//-->
+</script>
+
+</center>    
+<br>
+    
+
+
+<div id="background">
+        <div id="page">
+            <div id="header">
+                <a href="index.html" id="logo"></a> 
+                
+            </div> 
+            <div id="contents">
+                <div id="shop">
+                    <ul class="items">
+                        <li>
+                            <span><a href="T-shirt.html"><img src="images/shirt-red.jpg" alt="shirt" /></a></span>
+                            <a href="T-shirt.html" class="buy">T-shirt</a>
+                        </li>
+                        <li>
+                            <span><a href="pantallona.html"><img src="im/1.png" alt="jeans" /></a></span>
+                            <a href="pantallona.html" class="buy">Pantallona</a>
+                        </li>
+                        <li>
+                            <span><a href="xhupa.html"><img src="ima/6.jpg" alt="xhupa" /></a></span>
+                            <a href="xhupa.html" class="buy">Xhupa</a>
+                        </li>
+                        <li class="last">
+                            <span><a href="kemisha.html"><img src="i/2.jpg" alt="shirt"/></a></span>
+                            <a href="kemisha.html" class="buy">Kemisha</a>
+                        </li>
+
+                        <li>
+                            <span><a href="kostume.html"><img src="imag/2.jpg" alt="kostum" /></a></span>
+                            <a href="kostume.html" class="buy">Kostume</a>
+                        </li>
+                        <li>
+                            <span><a href="kostums.html"><img src="imagess/1.jpg" alt="shirt" /></a></span>
+                            <a href="kostums.html" class="buy">Kostume Sportive</a>
+                        </li>
+                        <li>
+                            <span><a href="Bluza.html"><img src="imagesss/1.jpg" alt="shirt" /></a></span>
+                            <a href="Bluza.html" class="buy">Bluza Ekipesh</a>
+                        </li>
+                        <li class="last">
+                            <span><a href="Ora.html"><img src="image/8.jpg" alt="shirt" /></a></span>
+                            <a href="Ora.html" class="buy">Ora</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+</div>
+</div>
+
+	<center><div id="map"></div>
+
+    <script>
+        function initMap(){
+            var location = {lat: 40.725106, lng: 19.558218};
+            var map = new google.maps.Map(document.getElementById("map"),{
+                zoom: 3,
+                center: location
+            });
+            var marker = new google.maps.Marker({
+                position: location,
+                map: map
+            });
+        }
+    </script>
+
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB9NwnTllaruLY4dL3Lw72ZkeuYOEc6frA&callback=initMap"></script></center>
+</body>
+</html/>
+
